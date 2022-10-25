@@ -6,10 +6,10 @@
  exports.base = (sql,data,callback) => {
      //创建数据库链接
      const connection = mysql.createConnection({
-         host: 'localhost',   //数据库所在的服务器的域名或者IP地址
-         user: 'root',      //登录数据库的账号
-         password: 'Zz991004',
-         database: 'books'    //数据库的名称book,注意这里不是链接的名称，我创建的链接的名称为mybook
+         host: 'eu-cdbr-west-03.cleardb.net',   //数据库所在的服务器的域名或者IP地址
+         user: 'b50e5ff55463da',      //登录数据库的账号
+         password: '6ab304a0',
+         database: 'heroku_c4e40a811638b4e'    //数据库的名称book,注意这里不是链接的名称，我创建的链接的名称为mybook
      });
      //执行连接操作
      connection.connect();
